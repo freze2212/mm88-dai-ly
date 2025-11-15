@@ -1161,6 +1161,17 @@ tbody tr:hover {
   background: linear-gradient(180deg, #ec1c24 0%, #d20008 100%);
   cursor: pointer;
 }
+
+.input-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.input-layout {
+  width: 100%;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .header.mb {
@@ -1169,6 +1180,9 @@ tbody tr:hover {
   }
   .header.pc {
     display: none;
+  }
+  .input-flex {
+    display: block;
   }
 
   .mb .mobile-nav {
